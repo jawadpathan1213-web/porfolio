@@ -9,8 +9,8 @@ const Home = () => {
           Jawad Khan</h1>
           <p className='text-gray-500'>Frontend Developer</p>
           <div className='flex max-[300px]:flex-col gap-3 font-semibold'>
-            <button className='w-35 bg-green-700 border-gray-400 border px-3 py-2 cursor-pointer hover:bg-[#212121] transition-all ease-in'>Look My CV</button>
-            <button className='w-35 border-gray-400 border px-3 py-2 hover:bg-green-700 transition-all ease-in cursor-pointer'>GitHub</button>
+            <a href='cv.pdf' target='_blank' rel='noopener noreferrer' className='text-center w-35 bg-green-700 border-gray-400 border px-3 py-2 cursor-pointer hover:bg-[#212121] transition-all ease-in'>Look My CV</a>
+            <a href='https://github.com/jawadpathan1213-web' rel='noopener noreferrer' target='_blank' className='w-35 border-gray-400 border px-3 py-2 hover:bg-green-700 transition-all ease-in cursor-pointer text-center'>GitHub</a>
           </div>
         </div>
       <div className='w-[50%] flex justify-center'>

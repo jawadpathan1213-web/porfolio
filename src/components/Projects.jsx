@@ -6,13 +6,19 @@ const Projects = () => {
       projectname: "Ecommerce-Website",
       text: "This is an website to sells any type of clothes.",
       link: "https://ecommerce-website-phi-orcin.vercel.app/",
-      img: "ai-chat.png"
+      img: "ecommerce.png"
     },
     {
       projectname: "Quez-App",
       text: "I created a quiz app for questions and multiple-choice quizzes.",
       link: "https://quez-app-tau.vercel.app/",
       img: "quezapp.png"
+    },
+    {
+      projectname: "Foody-Zone",
+      text: "I created a quiz app for questions and multiple-choice quizzes.",
+      link: "https://quez-app-tau.vercel.app/",
+      img: "foody.png"
     },
     {
       projectname: "Landing-Page",
@@ -41,7 +47,7 @@ const Projects = () => {
           array.map((item, index)=>(
               <div key={index} className='flex p-3 bg-[#3b3b3b8c] rounded-2xl gap-2 h-[45vw] sm:h-[30vw] lg:h-[20vw] items-center'>
           <img className='w-[28vw] sm:w-[20vw] lg:w-[13vw]  h-full border border-gray-500 rounded-2xl' src={`${item.img}`} alt="img" />
-          <div className='flex flex-col gap-1 min-[300px]:gap-[3vw] lg:gap-[1vw] text-xs sm:text-sm md:text-base justify-center ml-0 min-[300px]:ml-[10vw] sm:ml-[2vw] lg:ml-[1vw]'>
+          <div className='flex flex-col gap-1 min-[300px]:gap-[3vw] lg:gap-[1vw] max-[250px]:text-[10px] text-xs sm:text-sm md:text-base justify-center ml-0 min-[300px]:ml-[10vw] sm:ml-[2vw] lg:ml-[1vw]'>
           <h1 className='font-bold text-green-600'>{item.projectname}</h1>
           <p>{item.text}</p>
           <a href={`${item.link}`} className='p-1 rounded-[5px] bg-green-600 text-center' target='_blank' rel="noopener noreferrer">View Project</a>

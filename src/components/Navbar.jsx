@@ -9,8 +9,8 @@ const Navbar = () => {
       <ul className=' gap-[5vw] font-mono text-gray-200 font-semibold max-[400px]:hidden flex'>
         <a  href='#about' className='border-b border-[#212121] hover:border-[#5a5757] hover:text-[#857f7f] cursor-pointer transition-all ease-in'>About me</a>
         <a  href='#skills' className='border-b border-[#212121] hover:border-[#5a5757] hover:text-[#857f7f] cursor-pointer transition-all ease-in'>Skills</a>
-        <a  className='border-b border-[#212121] hover:border-[#5a5757] hover:text-[#857f7f] cursor-pointer transition-all ease-in'>Projects</a>
-        <a  className='border-b border-[#212121] hover:border-[#5a5757] hover:text-[#857f7f] cursor-pointer transition-all ease-in'>contact</a>
+        <a href='#projects'  className='border-b border-[#212121] hover:border-[#5a5757] hover:text-[#857f7f] cursor-pointer transition-all ease-in'>Projects</a>
+        <a href='#getintouch'  className='border-b border-[#212121] hover:border-[#5a5757] hover:text-[#857f7f] cursor-pointer transition-all ease-in'>Contat me</a>
       </ul>
       <div className='max-[400px]:flex hidden fixed right-5 top-6'>
         <FiMenu onClick={()=>setNav(!nav)} className='text-xl absolute right-3 cursor-pointer'/> 
@@ -18,7 +18,7 @@ const Navbar = () => {
             <a onClick={()=>setNav(!nav)} href="#about">About me</a>
             <a onClick={()=>setNav(!nav)} href="#skills">Skills</a>
             <a onClick={()=>setNav(!nav)} href="#projects">Projects</a>
-            <a onClick={()=>setNav(!nav)} href="#contact">Contact me</a>
+            <a onClick={()=>setNav(!nav)} href='#getintouch'>Contact me</a>
         </ul>:null}
       </div>
     </div>
