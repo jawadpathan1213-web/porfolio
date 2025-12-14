@@ -5,37 +5,37 @@ const Projects = () => {
     {
       projectname: "Ecommerce-Website",
       text: "This is an website to sells any type of clothes.",
-      link: "https://ecommerce-website-phi-orcin.vercel.app/",
+      link: "https://ecommerce-clothes-web.netlify.app/",
       img: "ecommerce.png"
     },
     {
       projectname: "Quez-App",
       text: "I created a quiz app for questions and multiple-choice quizzes.",
-      link: "https://quez-app-tau.vercel.app/",
+      link: "https://frabjous-buttercream-4a1232.netlify.app/",
       img: "quezapp.png"
     },
     {
       projectname: "Foody-Zone",
       text: "I created a quiz app for questions and multiple-choice quizzes.",
-      link: "https://quez-app-tau.vercel.app/",
+      link: "https://unrivaled-druid-342f1b.netlify.app/",
       img: "foody.png"
     },
     {
       projectname: "Landing-Page",
       text: "I made an interactive and responsive landing page.",
-      link: "https://landing-page-rho-one-77.vercel.app/",
+      link: "https://verdant-zabaione-ec2d52.netlify.app/",
       img: "landingpage.png"
     },
     {
       projectname: "Insightpod-Website",
       text: "This is a website that will not open without login",
-      link: "https://my-website-mu-bay-46.vercel.app",
+      link: "https://insightpod.netlify.app/",
       img: "insightpod1.png"
     },
     {
       projectname: "Dice-Game",
       text: "This is a website in which you can play dice game",
-      link: "https://dice-game-taupe-eight.vercel.app/",
+      link: "https://zingy-lolly-f475a4.netlify.app/",
       img: "dice.png"
     },
   ]

@@ -34,30 +34,30 @@ const GetInTouch = () => {
       <h1 className='font-semibold text-2xl sm:text-4xl md:text-5xl '>
         Contact me
       </h1>
-      <div className='flex flex-col justify-center items-center gap-5 sm:gap-10'>
-        <div className='flex flex-row max-[400px]:flex-col items-center gap-5 sm:gap-10 w-full'>
+      <div className='flex flex-col text-center items-center gap-5 sm:gap-10'>
+        <div className='flex flex-row max-[400px]:flex-col items-center gap-[5vw] sm:gap-[3vw]  justify-between'>
           <input
-            className='border-b border-gray-600 py-1 outline-none min-[400px]:w-[25vw] w-[70vw]  min-[400px]:min-w-[162px]'
+            className='border-b border-gray-600 py-1 outline-none md:w-[25vw] lg:w-[20vw] min-[400px]:w-[35vw] w-[70vw]'
             type='text'
             placeholder='Name'
             onChange={(e) => setName(e.target.value)}
           />
           <input
-            className='border-b border-gray-600 py-1 outline-none min-[400px]:w-[25vw] w-[70vw]  min-[400px]:min-w-[162px]'
+            className='border-b border-gray-600 py-1 outline-none md:w-[25vw] lg:w-[20vw] min-[400px]:w-[35vw] w-[70vw]'
             type='text'
             placeholder='Last Name'
             onChange={(e) => setLastName(e.target.value)}
           />
         </div>
-        <div className='flex flex-row max-[400px]:flex-col items-center gap-5 sm:gap-10 w-[70]'>
+        <div className='flex flex-row max-[400px]:flex-col items-center gap-[5vw] sm:gap-[3vw]  justify-between'>
           <input
-            className='border-b border-gray-600 py-1 outline-none min-[400px]:w-[25vw] w-[70vw]  min-[400px]:min-w-[162px]'
-            type='Email'
+            className='border-b border-gray-600 py-1 outline-none md:w-[25vw] lg:w-[20vw] min-[400px]:w-[35vw] w-[70vw]'
+            type='email'
             placeholder='Email'
             onChange={(e) => setEmail(e.target.value)}
           />
           <input
-            className='border-b border-gray-600 py-1 outline-none min-[400px]:w-[25vw] w-[70vw]  min-[400px]:min-w-[162px] no-spinner'
+            className='border-b no-spinner border-gray-600 py-1 outline-none md:w-[25vw] lg:w-[20vw] min-[400px]:w-[35vw] w-[70vw]'
             type='number'
             placeholder='WhatsApp Number'
             onChange={(e) => setPhone(e.target.value)}
@@ -65,13 +65,14 @@ const GetInTouch = () => {
         </div>
         <textarea
           placeholder='Message'
-          className='border px-2 border-gray-600 py-1 outline-none w-full resize-none h-20 sm:h-50'
+          className='border px-2 border-gray-600 py-1 outline-none  w-[70vw] min-[400px]:w-[75vw] sm:w-[73vw] md:w-[53vw] lg:w-[43vw] sm:h-50 h-30'
           onChange={(e) => setMessage(e.target.value)}
         ></textarea>
         <button onClick={sendToWhatsapp} className='w-35 border-gray-400 border text-white px-3 py-2 bg-green-700 hover:bg-[#212121] transition-all ease-in cursor-pointer text-center'>
           Submit
         </button>
       </div>
+      <p className="mt-10 text-gray-500">&copy; Jawad Khan 2025</p>
     </div>
   );
 };
